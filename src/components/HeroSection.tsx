@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import heroBg from "@/assets/hero-bg.jpg";
 
 const HeroSection = () => {
@@ -41,12 +42,12 @@ const HeroSection = () => {
           >
             Explorar Divisiones
           </a>
-          <a
-            href="#contact"
+          <Link
+            to="/contacto"
             className="border border-primary/40 text-primary font-body font-semibold px-8 py-4 rounded-sm text-sm tracking-wider uppercase hover:bg-primary/10 transition-colors"
           >
             Solicitar Propuesta
-          </a>
+          </Link>
         </div>
       </div>
 
