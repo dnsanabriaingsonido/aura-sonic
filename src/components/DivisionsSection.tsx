@@ -1,4 +1,5 @@
-import { Volume2, Music, Megaphone } from "lucide-react";
+import { Volume2, Music, Megaphone, ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 import divEngineering from "@/assets/division-engineering.jpg";
 import divMedia from "@/assets/division-media.jpg";
 import divAdvertising from "@/assets/division-advertising.jpg";
@@ -11,6 +12,7 @@ const divisions = [
       "Producción de eventos, sonido en vivo, crew técnico, alquiler de equipos, acústica arquitectónica, aislamiento, medición y consultoría normativa.",
     image: divEngineering,
     services: ["Eventos en vivo", "Acústica", "Consultoría", "Equipos"],
+    href: "/ingenieria",
   },
   {
     icon: Music,
@@ -19,6 +21,7 @@ const divisions = [
       "Producción musical, mezcla y masterización, diseño sonoro, postproducción audiovisual, podcast y streaming profesional.",
     image: divMedia,
     services: ["Producción", "Mezcla", "Diseño sonoro", "Streaming"],
+    href: "/media",
   },
   {
     icon: Megaphone,
@@ -27,6 +30,7 @@ const divisions = [
       "Producción audiovisual publicitaria, jingles, branding sonoro, identidad de marca, activaciones y contenido empresarial.",
     image: divAdvertising,
     services: ["Branding sonoro", "Jingles", "Audiovisual", "Activaciones"],
+    href: "/publicidad",
   },
 ];
 
@@ -76,6 +80,13 @@ const DivisionsSection = () => {
                     </span>
                   ))}
                 </div>
+
+                <Link
+                  to={div.href}
+                  className="inline-flex items-center gap-2 text-primary font-body text-sm font-medium hover:underline mt-2"
+                >
+                  Ver más <ArrowRight className="w-4 h-4" />
+                </Link>
               </div>
             </div>
           ))}
