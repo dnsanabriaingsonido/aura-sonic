@@ -120,42 +120,7 @@ const Ingenieria = () => {
         ]}
       />
 
-      {/* Services Detail */}
-      <section className="py-24 bg-background">
-        <div className="container mx-auto px-6">
-          <div className="text-center mb-16">
-            <p className="text-primary font-body text-sm tracking-[0.3em] uppercase mb-4 font-medium">Servicios</p>
-            <h2 className="font-display text-4xl md:text-5xl font-bold text-foreground">
-              Capacidades <span className="text-gradient-gold">técnicas</span>
-            </h2>
-          </div>
-
-          <div className="space-y-8">
-            {services.map((service, i) => (
-              <div
-                key={i}
-                className="group bg-card border border-border rounded-sm p-8 hover:border-primary/40 transition-all duration-300 grid md:grid-cols-[1fr_2fr_1fr] gap-8 items-start"
-              >
-                <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-primary/10 rounded-sm flex items-center justify-center shrink-0 group-hover:bg-primary/20 transition-colors">
-                    <service.icon className="w-6 h-6 text-primary" />
-                  </div>
-                  <h3 className="font-display text-xl font-bold text-foreground">{service.title}</h3>
-                </div>
-                <p className="font-body text-sm text-muted-foreground leading-relaxed">{service.description}</p>
-                <div className="space-y-2">
-                  {service.features.map((f) => (
-                    <div key={f} className="flex items-center gap-2">
-                      <CheckCircle className="w-3.5 h-3.5 text-primary shrink-0" />
-                      <span className="font-body text-xs text-muted-foreground">{f}</span>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      <DynamicServices title="Capacidades" accent="técnicas" services={services} />
 
       <ProcessSection steps={processSteps} title="Cómo trabajamos" subtitle="Metodología Técnica" />
 
