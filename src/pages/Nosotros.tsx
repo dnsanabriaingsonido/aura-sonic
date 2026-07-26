@@ -178,38 +178,6 @@ const Nosotros = () => {
         </div>
       </section>
 
-      {/* Timeline */}
-      <section className="py-24 bg-background">
-        <div className="container mx-auto px-6 max-w-3xl">
-          <div className="text-center mb-16">
-            <p className="text-primary font-body text-sm tracking-[0.3em] uppercase mb-4 font-medium">Trayectoria</p>
-            <h2 className="font-display text-4xl md:text-5xl font-bold text-foreground">
-              Plan de <span className="text-gradient-gold">crecimiento</span>
-            </h2>
-          </div>
-
-          <div className="space-y-0">
-            {timeline.map((item, i) => (
-              <div key={i} className="relative pl-12 pb-12 last:pb-0">
-                {/* Line */}
-                {i < timeline.length - 1 && (
-                  <div className="absolute left-[17px] top-8 w-px h-full bg-border" />
-                )}
-                {/* Dot */}
-                <div className="absolute left-0 top-1 w-9 h-9 bg-primary/20 rounded-full flex items-center justify-center">
-                  <div className="w-3 h-3 bg-primary rounded-full" />
-                </div>
-
-                <div className="bg-card border border-border rounded-sm p-6 hover:border-primary/40 transition-colors">
-                  <span className="font-body text-xs text-primary font-semibold tracking-wider uppercase">{item.year}</span>
-                  <h3 className="font-display text-lg font-bold text-foreground mt-1 mb-2">{item.title}</h3>
-                  <p className="font-body text-sm text-muted-foreground leading-relaxed">{item.description}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Divisions CTA */}
       <section className="py-24 bg-secondary">
