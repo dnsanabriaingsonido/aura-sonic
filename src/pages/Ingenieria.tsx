@@ -4,20 +4,20 @@ import CTASection from "@/components/CTASection";
 import FAQSection from "@/components/FAQSection";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
+import DynamicServices from "@/components/DynamicServices";
 import heroImg from "@/assets/hero-ingenieria.jpg";
+import svcImg1 from "@/assets/service-ing-1.jpg";
+import svcImg2 from "@/assets/service-ing-2.jpg";
+import svcImg3 from "@/assets/service-ing-3.jpg";
 import {
   Volume2,
-  Mic2,
   Settings,
   Ruler,
   Shield,
   Gauge,
   Building,
   Wrench,
-  Radio,
   Users,
-  CheckCircle,
-  ArrowRight,
 } from "lucide-react";
 import { Link } from "react-router-dom";
 
