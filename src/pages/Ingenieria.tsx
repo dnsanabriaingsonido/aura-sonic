@@ -28,6 +28,7 @@ const services = [
     description:
       "Diseño, montaje y operación de sistemas de sonido profesional para eventos corporativos, conciertos, conferencias y festivales. Trabajamos con equipos de última generación y técnicos certificados para garantizar cobertura uniforme y claridad en cada punto del venue.",
     features: ["PA Systems Line Array", "Monitoreo personal IEM", "Consolas digitales", "RF Management"],
+    image: svcImg1,
   },
   {
     icon: Users,
@@ -35,6 +36,7 @@ const services = [
     description:
       "Coordinación integral de equipos técnicos: stage managers, roadies, riggers y técnicos especializados. Planificación logística completa desde el load-in hasta el desmontaje.",
     features: ["Stage management", "Coordinación de crew", "Logística técnica", "Riders técnicos"],
+    image: svcImg2,
   },
   {
     icon: Wrench,
@@ -42,6 +44,7 @@ const services = [
     description:
       "Flota de equipos profesionales disponible para cualquier escala de producción. Desde microfonía especializada hasta sistemas de PA de gran formato, con soporte técnico incluido.",
     features: ["Audio profesional", "Iluminación", "Video y pantallas", "Backline"],
+    image: svcImg1,
   },
   {
     icon: Settings,
@@ -49,6 +52,7 @@ const services = [
     description:
       "Diseño a medida e instalación permanente de sistemas de audio para espacios comerciales, auditorios, iglesias, restaurantes y oficinas corporativas. Integración con sistemas de automatización.",
     features: ["Diseño electroacústico", "Instalación fija", "Automatización", "Comisionamiento"],
+    image: svcImg3,
   },
   {
     icon: Ruler,
@@ -56,6 +60,7 @@ const services = [
     description:
       "Consultoría y diseño acústico para espacios nuevos o existentes. Tratamiento acústico, control de reverberación, diseño de salas de grabación, auditorios y espacios educativos.",
     features: ["Modelado acústico 3D", "Tratamiento absorbente", "Difusión acústica", "Diseño de estudios"],
+    image: svcImg3,
   },
   {
     icon: Shield,
@@ -63,6 +68,7 @@ const services = [
     description:
       "Soluciones de aislamiento acústico para construcciones, estudios, espacios industriales y residenciales. Cumplimiento de normativas locales e internacionales de control de ruido.",
     features: ["STC / IIC", "Flotación de pisos", "Tabiques acústicos", "Puertas y ventanas"],
+    image: svcImg2,
   },
   {
     icon: Gauge,
@@ -70,6 +76,7 @@ const services = [
     description:
       "Mediciones acústicas profesionales con equipos certificados: SPL, RT60, STI, frecuencia de resonancia. Calibración de sistemas de sonido para óptimo rendimiento.",
     features: ["SPL & LEQ", "Tiempo de reverberación", "Inteligibilidad STI", "Mapeo de cobertura"],
+    image: svcImg1,
   },
   {
     icon: Building,
@@ -77,6 +84,7 @@ const services = [
     description:
       "Asesoría técnica para cumplimiento de normativas ambientales de ruido. Estudios de impacto acústico, planes de mitigación y representación ante autoridades regulatorias.",
     features: ["Estudios de impacto", "Mapas de ruido", "Planes de mitigación", "Informes técnicos"],
+    image: svcImg3,
   },
 ];
 
