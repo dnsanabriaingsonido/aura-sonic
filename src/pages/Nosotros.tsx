@@ -16,12 +16,6 @@ const values = [
   { icon: TrendingUp, title: "Escalabilidad", description: "Diseñamos soluciones que crecen con tu negocio. Tu éxito impulsa nuestro crecimiento." },
 ];
 
-const timeline = [
-  { year: "Fundación", title: "Nace la Visión", description: "Dilan funda AUDIUM GROUP con la misión de integrar ingeniería de sonido, producción creativa y comunicación estratégica en una sola firma." },
-  { year: "Año 1", title: "Primeros Contratos Corporativos", description: "Primeros contratos con constructoras y empresas del sector corporativo. Se establece la red de profesionales senior." },
-  { year: "Año 2-3", title: "Consolidación de Divisiones", description: "Las tres divisiones operan de forma autónoma con equipos especializados. Se amplía la cartera de clientes B2B." },
-  { year: "Año 5", title: "Expansión Regional", description: "Presencia en múltiples ciudades, equipo de +30 profesionales y posicionamiento como firma líder del sector." },
-];
 
 const Nosotros = () => {
   return (
