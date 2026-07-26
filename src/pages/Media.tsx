@@ -18,6 +18,7 @@ const services = [
     description:
       "Producción musical integral desde la composición hasta el master final. Trabajamos con artistas, bandas y proyectos corporativos para crear piezas musicales de calidad profesional con identidad sonora única.",
     features: ["Composición y arreglos", "Grabación multipista", "Producción ejecutiva", "Dirección artística"],
+    image: svcImg1,
   },
   {
     icon: Headphones,
@@ -25,6 +26,7 @@ const services = [
     description:
       "Mezcla profesional en entorno calibrado con monitoreo de referencia. Masterización para todas las plataformas de distribución digital, vinilo y broadcast con estándares LUFS internacionales.",
     features: ["Mezcla estéreo y surround", "Stem mastering", "Loudness normalization", "Distribución digital"],
+    image: svcImg1,
   },
   {
     icon: AudioLines,
@@ -32,6 +34,7 @@ const services = [
     description:
       "Creación de paisajes sonoros, efectos y ambientes para producciones audiovisuales, videojuegos, instalaciones artísticas y experiencias inmersivas. Sound design con librerías propias y grabaciones de campo.",
     features: ["Foley artístico", "Síntesis de sonido", "Field recording", "Audio inmersivo"],
+    image: svcImg2,
   },
   {
     icon: Film,
@@ -39,6 +42,7 @@ const services = [
     description:
       "Edición de audio para cine, documental, publicidad y contenido digital. Sincronización, doblaje, mezcla 5.1/7.1 y entrega en formatos broadcast profesional.",
     features: ["Edición de diálogos", "Mezcla 5.1 / 7.1", "ADR y doblaje", "Entrega broadcast"],
+    image: svcImg1,
   },
   {
     icon: Podcast,
@@ -46,6 +50,7 @@ const services = [
     description:
       "Producción completa de podcast: desde la planificación editorial hasta la edición, mezcla, masterización y distribución en todas las plataformas. Asesoría en identidad sonora y formato.",
     features: ["Grabación remota/estudio", "Edición narrativa", "Intro/outro personalizados", "Distribución multiplataforma"],
+    image: svcImg3,
   },
   {
     icon: Radio,
@@ -53,6 +58,7 @@ const services = [
     description:
       "Soluciones de streaming en vivo para eventos corporativos, conferencias, conciertos y formatos híbridos. Integración de audio profesional con plataformas de streaming.",
     features: ["Multi-cámara", "Audio profesional", "Overlays personalizados", "CDN dedicada"],
+    image: svcImg2,
   },
 ];
 
