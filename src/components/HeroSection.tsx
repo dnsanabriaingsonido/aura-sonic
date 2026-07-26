@@ -23,16 +23,16 @@ const HeroSection = () => {
           className="font-display text-5xl md:text-7xl lg:text-8xl font-bold leading-[0.95] mb-8 animate-fade-up"
           style={{ animationDelay: "0.4s", opacity: 0 }}
         >
-          <span className="text-foreground">Donde el sonido</span>
+          <span className="text-foreground">Técnica al servicio</span>
           <br />
-          <span className="text-gradient-gold">se convierte en poder</span>
+          <span className="text-gradient-gold">de las grandes experiencias</span>
         </h1>
 
         <p
           className="font-body text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed animate-fade-up"
           style={{ animationDelay: "0.6s", opacity: 0 }}
         >
-          Firma técnica integral especializada en ingeniería de audio, producción audiovisual y comunicación estratégica para marcas, eventos y espacios.
+          Somos una firma técnica especializada en ingeniería, producción, tecnología y comunicación estratégica. Integramos talento, innovación y ejecución para desarrollar proyectos que transforman marcas, organizaciones y espacios.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-up" style={{ animationDelay: "0.8s", opacity: 0 }}>
