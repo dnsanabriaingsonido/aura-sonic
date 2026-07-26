@@ -18,6 +18,7 @@ const services = [
     description:
       "Producción completa de contenido audiovisual para campañas publicitarias, comerciales de TV, spots digitales y contenido para redes sociales. Desde el concepto creativo hasta la entrega final optimizada para cada plataforma.",
     features: ["Comerciales TV/Digital", "Videos corporativos", "Contenido redes sociales", "Motion graphics"],
+    image: svcImg1,
   },
   {
     icon: Music2,
@@ -25,6 +26,7 @@ const services = [
     description:
       "Composición y producción de jingles memorables que refuerzan el posicionamiento de marca. Adaptaciones para radio, televisión, digital y puntos de venta con licenciamiento completo.",
     features: ["Composición original", "Adaptaciones multi-formato", "Licenciamiento completo", "Versiones cortas/largas"],
+    image: svcImg3,
   },
   {
     icon: Palette,
@@ -32,6 +34,7 @@ const services = [
     description:
       "Diseño de identidad sonora integral para tu marca: logo sonoro, paisaje de marca, UX sounds, hold music y todas las expresiones sonoras que definen la personalidad auditiva de tu empresa.",
     features: ["Logo sonoro", "Soundscape de marca", "UX sounds", "Audio guidelines"],
+    image: svcImg2,
   },
   {
     icon: Sparkles,
@@ -39,6 +42,7 @@ const services = [
     description:
       "Estrategia completa de identidad sonora alineada con los valores, personalidad y posicionamiento de tu marca. Definimos el ADN sonoro que te diferencia en cada punto de contacto con tu audiencia.",
     features: ["Auditoría sonora", "Estrategia de marca", "Manual de identidad", "Implementación"],
+    image: svcImg3,
   },
   {
     icon: Target,
@@ -46,6 +50,7 @@ const services = [
     description:
       "Diseño y ejecución de experiencias sonoras para activaciones BTL, eventos de marca, lanzamientos de producto y experiencias inmersivas. Tecnología de audio espacial y realidad aumentada sonora.",
     features: ["Experiencias inmersivas", "Audio espacial", "Instalaciones interactivas", "Eventos de marca"],
+    image: svcImg2,
   },
   {
     icon: MonitorPlay,
@@ -53,6 +58,7 @@ const services = [
     description:
       "Producción de contenido audiovisual corporativo: videos institucionales, capacitaciones, reportes anuales en video, podcasts corporativos y comunicación interna multimedia.",
     features: ["Videos institucionales", "E-learning", "Reportes audiovisuales", "Comunicación interna"],
+    image: svcImg1,
   },
 ];
 
