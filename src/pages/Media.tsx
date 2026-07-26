@@ -4,8 +4,12 @@ import CTASection from "@/components/CTASection";
 import FAQSection from "@/components/FAQSection";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
+import DynamicServices from "@/components/DynamicServices";
 import heroImg from "@/assets/hero-media.jpg";
-import { Music, Headphones, Film, Podcast, Radio, AudioLines, Mic2, Clapperboard, CheckCircle } from "lucide-react";
+import svcImg1 from "@/assets/service-media-1.jpg";
+import svcImg2 from "@/assets/service-media-2.jpg";
+import svcImg3 from "@/assets/service-media-3.jpg";
+import { Music, Headphones, Film, Podcast, Radio, AudioLines } from "lucide-react";
 
 const services = [
   {
