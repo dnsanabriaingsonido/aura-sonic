@@ -4,8 +4,12 @@ import CTASection from "@/components/CTASection";
 import FAQSection from "@/components/FAQSection";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
+import DynamicServices from "@/components/DynamicServices";
 import heroImg from "@/assets/hero-publicidad.jpg";
-import { Megaphone, Music2, Video, Palette, Sparkles, Target, MonitorPlay, CheckCircle } from "lucide-react";
+import svcImg1 from "@/assets/service-pub-1.jpg";
+import svcImg2 from "@/assets/service-pub-2.jpg";
+import svcImg3 from "@/assets/service-pub-3.jpg";
+import { Music2, Video, Palette, Sparkles, Target, MonitorPlay } from "lucide-react";
 
 const services = [
   {
@@ -14,6 +18,7 @@ const services = [
     description:
       "Producción completa de contenido audiovisual para campañas publicitarias, comerciales de TV, spots digitales y contenido para redes sociales. Desde el concepto creativo hasta la entrega final optimizada para cada plataforma.",
     features: ["Comerciales TV/Digital", "Videos corporativos", "Contenido redes sociales", "Motion graphics"],
+    image: svcImg1,
   },
   {
     icon: Music2,
@@ -21,6 +26,7 @@ const services = [
     description:
       "Composición y producción de jingles memorables que refuerzan el posicionamiento de marca. Adaptaciones para radio, televisión, digital y puntos de venta con licenciamiento completo.",
     features: ["Composición original", "Adaptaciones multi-formato", "Licenciamiento completo", "Versiones cortas/largas"],
+    image: svcImg3,
   },
   {
     icon: Palette,
@@ -28,6 +34,7 @@ const services = [
     description:
       "Diseño de identidad sonora integral para tu marca: logo sonoro, paisaje de marca, UX sounds, hold music y todas las expresiones sonoras que definen la personalidad auditiva de tu empresa.",
     features: ["Logo sonoro", "Soundscape de marca", "UX sounds", "Audio guidelines"],
+    image: svcImg2,
   },
   {
     icon: Sparkles,
@@ -35,6 +42,7 @@ const services = [
     description:
       "Estrategia completa de identidad sonora alineada con los valores, personalidad y posicionamiento de tu marca. Definimos el ADN sonoro que te diferencia en cada punto de contacto con tu audiencia.",
     features: ["Auditoría sonora", "Estrategia de marca", "Manual de identidad", "Implementación"],
+    image: svcImg3,
   },
   {
     icon: Target,
@@ -42,6 +50,7 @@ const services = [
     description:
       "Diseño y ejecución de experiencias sonoras para activaciones BTL, eventos de marca, lanzamientos de producto y experiencias inmersivas. Tecnología de audio espacial y realidad aumentada sonora.",
     features: ["Experiencias inmersivas", "Audio espacial", "Instalaciones interactivas", "Eventos de marca"],
+    image: svcImg2,
   },
   {
     icon: MonitorPlay,
@@ -49,6 +58,7 @@ const services = [
     description:
       "Producción de contenido audiovisual corporativo: videos institucionales, capacitaciones, reportes anuales en video, podcasts corporativos y comunicación interna multimedia.",
     features: ["Videos institucionales", "E-learning", "Reportes audiovisuales", "Comunicación interna"],
+    image: svcImg1,
   },
 ];
 
@@ -83,42 +93,7 @@ const Publicidad = () => {
         ]}
       />
 
-      {/* Services Detail */}
-      <section className="py-24 bg-background">
-        <div className="container mx-auto px-6">
-          <div className="text-center mb-16">
-            <p className="text-primary font-body text-sm tracking-[0.3em] uppercase mb-4 font-medium">Servicios</p>
-            <h2 className="font-display text-4xl md:text-5xl font-bold text-foreground">
-              Comunicación <span className="text-gradient-gold">que impacta</span>
-            </h2>
-          </div>
-
-          <div className="space-y-8">
-            {services.map((service, i) => (
-              <div
-                key={i}
-                className="group bg-card border border-border rounded-sm p-8 hover:border-primary/40 transition-all duration-300 grid md:grid-cols-[1fr_2fr_1fr] gap-8 items-start"
-              >
-                <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-primary/10 rounded-sm flex items-center justify-center shrink-0 group-hover:bg-primary/20 transition-colors">
-                    <service.icon className="w-6 h-6 text-primary" />
-                  </div>
-                  <h3 className="font-display text-xl font-bold text-foreground">{service.title}</h3>
-                </div>
-                <p className="font-body text-sm text-muted-foreground leading-relaxed">{service.description}</p>
-                <div className="space-y-2">
-                  {service.features.map((f) => (
-                    <div key={f} className="flex items-center gap-2">
-                      <CheckCircle className="w-3.5 h-3.5 text-primary shrink-0" />
-                      <span className="font-body text-xs text-muted-foreground">{f}</span>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      <DynamicServices title="Comunicación" accent="que impacta" services={services} />
 
       <ProcessSection steps={processSteps} title="De la estrategia al impacto" subtitle="Metodología Creativa" />
 

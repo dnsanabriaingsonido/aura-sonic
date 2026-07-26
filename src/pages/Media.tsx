@@ -4,8 +4,12 @@ import CTASection from "@/components/CTASection";
 import FAQSection from "@/components/FAQSection";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
+import DynamicServices from "@/components/DynamicServices";
 import heroImg from "@/assets/hero-media.jpg";
-import { Music, Headphones, Film, Podcast, Radio, AudioLines, Mic2, Clapperboard, CheckCircle } from "lucide-react";
+import svcImg1 from "@/assets/service-media-1.jpg";
+import svcImg2 from "@/assets/service-media-2.jpg";
+import svcImg3 from "@/assets/service-media-3.jpg";
+import { Music, Headphones, Film, Podcast, Radio, AudioLines } from "lucide-react";
 
 const services = [
   {
@@ -14,6 +18,7 @@ const services = [
     description:
       "Producción musical integral desde la composición hasta el master final. Trabajamos con artistas, bandas y proyectos corporativos para crear piezas musicales de calidad profesional con identidad sonora única.",
     features: ["Composición y arreglos", "Grabación multipista", "Producción ejecutiva", "Dirección artística"],
+    image: svcImg1,
   },
   {
     icon: Headphones,
@@ -21,6 +26,7 @@ const services = [
     description:
       "Mezcla profesional en entorno calibrado con monitoreo de referencia. Masterización para todas las plataformas de distribución digital, vinilo y broadcast con estándares LUFS internacionales.",
     features: ["Mezcla estéreo y surround", "Stem mastering", "Loudness normalization", "Distribución digital"],
+    image: svcImg1,
   },
   {
     icon: AudioLines,
@@ -28,6 +34,7 @@ const services = [
     description:
       "Creación de paisajes sonoros, efectos y ambientes para producciones audiovisuales, videojuegos, instalaciones artísticas y experiencias inmersivas. Sound design con librerías propias y grabaciones de campo.",
     features: ["Foley artístico", "Síntesis de sonido", "Field recording", "Audio inmersivo"],
+    image: svcImg2,
   },
   {
     icon: Film,
@@ -35,6 +42,7 @@ const services = [
     description:
       "Edición de audio para cine, documental, publicidad y contenido digital. Sincronización, doblaje, mezcla 5.1/7.1 y entrega en formatos broadcast profesional.",
     features: ["Edición de diálogos", "Mezcla 5.1 / 7.1", "ADR y doblaje", "Entrega broadcast"],
+    image: svcImg1,
   },
   {
     icon: Podcast,
@@ -42,6 +50,7 @@ const services = [
     description:
       "Producción completa de podcast: desde la planificación editorial hasta la edición, mezcla, masterización y distribución en todas las plataformas. Asesoría en identidad sonora y formato.",
     features: ["Grabación remota/estudio", "Edición narrativa", "Intro/outro personalizados", "Distribución multiplataforma"],
+    image: svcImg3,
   },
   {
     icon: Radio,
@@ -49,6 +58,7 @@ const services = [
     description:
       "Soluciones de streaming en vivo para eventos corporativos, conferencias, conciertos y formatos híbridos. Integración de audio profesional con plataformas de streaming.",
     features: ["Multi-cámara", "Audio profesional", "Overlays personalizados", "CDN dedicada"],
+    image: svcImg2,
   },
 ];
 
@@ -83,42 +93,7 @@ const Media = () => {
         ]}
       />
 
-      {/* Services Detail */}
-      <section className="py-24 bg-background">
-        <div className="container mx-auto px-6">
-          <div className="text-center mb-16">
-            <p className="text-primary font-body text-sm tracking-[0.3em] uppercase mb-4 font-medium">Servicios</p>
-            <h2 className="font-display text-4xl md:text-5xl font-bold text-foreground">
-              Servicios <span className="text-gradient-gold">creativos</span>
-            </h2>
-          </div>
-
-          <div className="space-y-8">
-            {services.map((service, i) => (
-              <div
-                key={i}
-                className="group bg-card border border-border rounded-sm p-8 hover:border-primary/40 transition-all duration-300 grid md:grid-cols-[1fr_2fr_1fr] gap-8 items-start"
-              >
-                <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-primary/10 rounded-sm flex items-center justify-center shrink-0 group-hover:bg-primary/20 transition-colors">
-                    <service.icon className="w-6 h-6 text-primary" />
-                  </div>
-                  <h3 className="font-display text-xl font-bold text-foreground">{service.title}</h3>
-                </div>
-                <p className="font-body text-sm text-muted-foreground leading-relaxed">{service.description}</p>
-                <div className="space-y-2">
-                  {service.features.map((f) => (
-                    <div key={f} className="flex items-center gap-2">
-                      <CheckCircle className="w-3.5 h-3.5 text-primary shrink-0" />
-                      <span className="font-body text-xs text-muted-foreground">{f}</span>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      <DynamicServices title="Servicios" accent="creativos" services={services} />
 
       <ProcessSection steps={processSteps} title="Del concepto al master" subtitle="Flujo Creativo" />
 
