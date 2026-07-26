@@ -16,12 +16,6 @@ const values = [
   { icon: TrendingUp, title: "Escalabilidad", description: "Diseñamos soluciones que crecen con tu negocio. Tu éxito impulsa nuestro crecimiento." },
 ];
 
-const timeline = [
-  { year: "Fundación", title: "Nace la Visión", description: "Dilan funda AUDIUM GROUP con la misión de integrar ingeniería de sonido, producción creativa y comunicación estratégica en una sola firma." },
-  { year: "Año 1", title: "Primeros Contratos Corporativos", description: "Primeros contratos con constructoras y empresas del sector corporativo. Se establece la red de profesionales senior." },
-  { year: "Año 2-3", title: "Consolidación de Divisiones", description: "Las tres divisiones operan de forma autónoma con equipos especializados. Se amplía la cartera de clientes B2B." },
-  { year: "Año 5", title: "Expansión Regional", description: "Presencia en múltiples ciudades, equipo de +30 profesionales y posicionamiento como firma líder del sector." },
-];
 
 const Nosotros = () => {
   return (
@@ -178,38 +172,6 @@ const Nosotros = () => {
         </div>
       </section>
 
-      {/* Timeline */}
-      <section className="py-24 bg-background">
-        <div className="container mx-auto px-6 max-w-3xl">
-          <div className="text-center mb-16">
-            <p className="text-primary font-body text-sm tracking-[0.3em] uppercase mb-4 font-medium">Trayectoria</p>
-            <h2 className="font-display text-4xl md:text-5xl font-bold text-foreground">
-              Plan de <span className="text-gradient-gold">crecimiento</span>
-            </h2>
-          </div>
-
-          <div className="space-y-0">
-            {timeline.map((item, i) => (
-              <div key={i} className="relative pl-12 pb-12 last:pb-0">
-                {/* Line */}
-                {i < timeline.length - 1 && (
-                  <div className="absolute left-[17px] top-8 w-px h-full bg-border" />
-                )}
-                {/* Dot */}
-                <div className="absolute left-0 top-1 w-9 h-9 bg-primary/20 rounded-full flex items-center justify-center">
-                  <div className="w-3 h-3 bg-primary rounded-full" />
-                </div>
-
-                <div className="bg-card border border-border rounded-sm p-6 hover:border-primary/40 transition-colors">
-                  <span className="font-body text-xs text-primary font-semibold tracking-wider uppercase">{item.year}</span>
-                  <h3 className="font-display text-lg font-bold text-foreground mt-1 mb-2">{item.title}</h3>
-                  <p className="font-body text-sm text-muted-foreground leading-relaxed">{item.description}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Divisions CTA */}
       <section className="py-24 bg-secondary">
