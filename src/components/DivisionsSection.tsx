@@ -8,31 +8,35 @@ const divisions = [
   {
     icon: Volume2,
     number: "01",
-    title: "Ingeniería",
-    tagline: "Sonido que se siente.",
+    title: "Ingeniería & Producción Técnica",
+    description:
+      "Producción de eventos, sonido en vivo, crew técnico, alquiler de equipos, acústica arquitectónica, aislamiento, medición y consultoría normativa.",
     image: divEngineering,
-    tags: ["Live Sound", "Acústica", "Instalación"],
+    tags: ["Eventos en vivo", "Acústica", "Consultoría", "Equipos"],
     href: "/ingenieria",
   },
   {
     icon: Music,
     number: "02",
-    title: "Media",
-    tagline: "Historias que se escuchan.",
+    title: "Media & Producción Creativa",
+    description:
+      "Producción musical, mezcla y masterización, diseño sonoro, postproducción audiovisual, podcast y streaming profesional.",
     image: divMedia,
-    tags: ["Producción", "Mezcla", "Streaming"],
+    tags: ["Producción", "Mezcla", "Diseño sonoro", "Streaming"],
     href: "/media",
   },
   {
     icon: Megaphone,
     number: "03",
-    title: "Publicidad",
-    tagline: "Marcas que resuenan.",
+    title: "Publicidad & Comunicación",
+    description:
+      "Producción audiovisual publicitaria, jingles, branding sonoro, identidad de marca, activaciones y contenido empresarial.",
     image: divAdvertising,
-    tags: ["Branding sonoro", "Jingles", "Audiovisual"],
+    tags: ["Branding sonoro", "Jingles", "Audiovisual", "Activaciones"],
     href: "/publicidad",
   },
 ];
+
 
 const DivisionsSection = () => {
   return (
