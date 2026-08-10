@@ -85,7 +85,7 @@ const CinematicScroll = () => {
                 className="absolute inset-0 w-full h-full object-cover"
                 style={{ transform: `scale(${scale})`, willChange: "transform" }}
               />
-              <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/40 to-background" />
+              <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/25 to-background" />
 
               <div className="relative h-full flex flex-col items-center justify-center text-center px-6">
                 <p
