@@ -1,4 +1,6 @@
 import { LucideIcon, CheckCircle, ArrowUpRight } from "lucide-react";
+import ScrollReveal from "@/components/ScrollReveal";
+
 
 export interface DynamicServiceItem {
   icon: LucideIcon;
@@ -34,11 +36,12 @@ const DynamicServices = ({ title, accent, subtitle = "Servicios", services }: Pr
           {services.map((service, i) => {
             const reversed = i % 2 === 1;
             return (
+              <ScrollReveal key={i} y={48}>
+
               <div
-                key={i}
-                className="group grid md:grid-cols-2 gap-8 md:gap-12 items-center animate-fade-up"
-                style={{ animationDelay: `${i * 0.1}s`, opacity: 0 }}
+                className="group grid md:grid-cols-2 gap-8 md:gap-12 items-center"
               >
+
                 {/* Image */}
                 <div className={`relative ${reversed ? "md:order-2" : ""}`}>
                   <div className="relative aspect-[4/3] overflow-hidden rounded-sm border border-border group-hover:border-primary/50 transition-all duration-500">
@@ -104,7 +107,9 @@ const DynamicServices = ({ title, accent, subtitle = "Servicios", services }: Pr
                   </div>
                 </div>
               </div>
+              </ScrollReveal>
             );
+
           })}
         </div>
       </div>
