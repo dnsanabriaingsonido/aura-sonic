@@ -1,4 +1,6 @@
 import { LucideIcon, CheckCircle, ArrowUpRight } from "lucide-react";
+import ScrollReveal from "@/components/ScrollReveal";
+
 
 export interface DynamicServiceItem {
   icon: LucideIcon;
