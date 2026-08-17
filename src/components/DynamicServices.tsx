@@ -107,7 +107,9 @@ const DynamicServices = ({ title, accent, subtitle = "Servicios", services }: Pr
                   </div>
                 </div>
               </div>
+              </ScrollReveal>
             );
+
           })}
         </div>
       </div>
