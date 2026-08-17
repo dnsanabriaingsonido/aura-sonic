@@ -35,7 +35,9 @@ const DynamicServices = ({ title, accent, subtitle = "Servicios", services }: Pr
         <div className="space-y-16 md:space-y-24">
           {services.map((service, i) => {
             const reversed = i % 2 === 1;
+            return (
               <ScrollReveal key={i} y={48}>
+
               <div
                 className="group grid md:grid-cols-2 gap-8 md:gap-12 items-center"
               >
