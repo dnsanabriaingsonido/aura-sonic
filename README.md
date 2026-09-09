@@ -1,73 +1,133 @@
-# Welcome to your Lovable project
+# Aura Sonic
 
-## Project info
+Actúa como un experto en branding estratégico, arquitectura empresarial y desarrollo de firmas técnicas-creativas de alto nivel.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
 
-## How can I edit this code?
 
-There are several ways of editing your application.
 
-**Use Lovable**
+Quiero construir una empresa integral liderada por un ingeniero de sonido llamado Dilan. La visión es crear una firma que combine ingeniería de audio, producción técnica, acústica, producción audiovisual y servicios publicitarios para empresas y eventos.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
 
-Changes made via Lovable will be committed automatically to this repo.
 
-**Use your preferred IDE**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+El modelo de negocio será híbrido y escalable:
+	•	Dirección estratégica central (Dilan como fundador y director general).
+	•	Red de profesionales experimentados (ingenieros, técnicos, creativos).
+	•	Talento joven altamente capacitado y recién egresado.
+	•	Equipos contratados por proyecto.
+	•	Estructura flexible con bajo costo fijo.
+	•	Enfoque en contratos corporativos, constructoras, eventos y marcas.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-Follow these steps:
+
+
+La empresa tendrá tres grandes divisiones:
+	1.	Ingeniería & Producción Técnica:
+
+
+
+
+	•	Producción de eventos
+	•	Sonido en vivo
+	•	Manejo de crew técnico (stage y roadies)
+	•	Alquiler de equipos profesionales
+	•	Diseño e instalación de sistemas de sonido
+	•	Acústica arquitectónica y ambiental
+	•	Aislamiento acústico
+	•	Medición y calibración profesional
+	•	Consultoría normativa de ruido
+
+
+
+
+	2.	Media & Producción Creativa:
+
+
+
+
+	•	Producción musical
+	•	Mezcla y masterización
+	•	Diseño sonoro
+	•	Postproducción audiovisual
+	•	Producción de podcast
+	•	Streaming profesional
+
+
+
+
+	3.	Publicidad & Comunicación Estratégica:
+
+
+
+
+	•	Producción audiovisual publicitaria
+	•	Jingles comerciales
+	•	Branding sonoro
+	•	Identidad sonora de marca
+	•	Activaciones de marca
+	•	Producción de contenido empresarial
+	•	Soporte técnico para eventos corporativos
+
+
+
+
+Necesito que desarrolles de manera profunda y estratégica:
+	1.	20 opciones de nombre profesional y escalable.
+	2.	Concepto de marca sólido y diferenciado.
+	3.	Misión, visión y valores corporativos.
+	4.	Propuesta de valor clara y competitiva.
+	5.	Modelo de negocio detallado y escalable.
+	6.	Estructura organizacional ideal.
+	7.	Estrategia para captar contratos corporativos grandes.
+	8.	Estrategia comercial B2B.
+	9.	Plan de crecimiento a 5 años.
+	10.	Estrategia financiera inicial con bajo capital.
+	11.	Diferenciación frente a empresas tradicionales de sonido.
+	12.	Posicionamiento premium.
+	13.	Identidad verbal y tono de comunicación.
+	14.	Propuesta de estructura web profesional.
+	15.	Sistema de trabajo por proyectos.
+	16.	Estrategia para integrar talento senior y talento joven sin perder calidad.
+	17.	Proyección de expansión regional y nacional.
+
+
+
+
+El enfoque debe ser:
+	•	Profesional
+	•	Corporativo
+	•	Técnico
+	•	Estratégico
+	•	Escalable
+	•	Con visión de firma líder en el sector
+
+
+
+
+No quiero algo genérico. Necesito estructura empresarial real y visión de crecimiento grande.
+
+
+
+
+El objetivo es construir una firma técnica integral que compita con productoras, empresas de sonido y agencias técnicas, ofreciendo soluciones completas para eventos, espacios y marcas.
+
+This project was built with [Lovable](https://lovable.dev).
+
+## Build with Lovable
+
+Continue developing this project in the [Lovable editor](https://lovable.dev/projects/fef49f01-6b3f-4a9d-8e6c-67317857c65a).
+
+- **Ship faster**: describe what you want to build and Lovable handles the code.
+- **Stay in sync**: every change made in Lovable is committed straight to this repository.
+- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
+
+## Development
+
+Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
+git clone <this-repository-url>
+cd <repository-name>
 npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
 ```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
